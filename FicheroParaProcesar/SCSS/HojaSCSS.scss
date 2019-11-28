@@ -1,0 +1,41 @@
+@mixin borderradius($radius, $color) {
+    -webkit-border-radius:$radius;
+    -moz-border-radius:$radius;
+    -ms-border-radius:$radius;
+    border-radius: $radius;
+    &:hover{
+        background-color: $color;
+    }
+    width:(300px / 900px) * 100%;
+    height: 200px;
+    float: left;
+    box-sizing: border-box;
+}
+
+%texto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline blue;
+    font-size: 1.5rem;
+}
+
+.capaborderradius1{
+    @include borderradius(20px,yellow);
+    background-color: red;
+    &__texto1{
+        @extend %texto;
+    }
+}
+.capaborderradius2{
+    @include borderradius(10px,purple);
+    background-color: green;
+    &__texto2{
+        @extend %texto;
+    }
+}
+.capaborderradius3{
+    @include borderradius(5px, grey);
+    background-color: blue;
+    &__texto3{
+        @extend %texto;
+    }
+}
