@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <title>Odrenar</title>
+    </head>
+    <body>
+            <button onclick="w3.sortHTML('#identificador1', 'li')">Ordenar</button> 
+            <ul id="identificador1"> 
+                <li>Segovia</li> 
+                <li>Salamanca</li> 
+                <li>Valladolid</li>
+                <li>Zamora</li> 
+                <li>Soria</li> 
+                <li>Burgos</li> 
+            </ul>
+
+            <table id="tabla1"> 
+                <tr> 
+                    <th onclick="w3.sortHTML('#tabla1','.elemento', 'td:nth-child(1)')">Futbolista</th> 
+                    <th onclick="w3.sortHTML('#tabla1','.item', 'td:nth-child(2)')">País</th> 
+                </tr> 
+                <tr class="elemento"> 
+                    <td>Bebeto</td> 
+                    <td>Brasil</td> 
+                </tr> 
+                <tr class="elemento"> 
+                    <td>Fran</td> 
+                    <td>España</td> 
+                </tr> 
+                <tr class="elemento"> 
+                    <td>Makaay</td> 
+                    <td>Holanda</td> 
+                </tr> 
+            </table>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="selectores.js"></script>
+    <title>Selectores</title>
+</head>
+    <body> 
+        <p>Haz clic en el botón para ocultar todos los elementos con la clase clase1</p> 
+        <button onclick="w3.hide('*')">Ocultar Todo</button> 
+        <button onclick="w3.hide('.clase1>h2')">Ocultar los h2 de las clases clase1</button> 
+        <button onclick="w3.hide('div p')">Ocultar Todos los parrafos dentro de un div</button> 
+        <button onclick="w3.hide('div')">Ocultar Todo div</button> 
+        <div id="Londres" class="clase1"> 
+            <h2>London</h2> 
+            <p>Capital de Inglaterra.</p> 
+        </div> 
+        <div id="Paris" class="clase1"> 
+            <h2>Paris</h2> 
+            <p>Capital de Francia.</p> 
+        </div> 
+        <div id="Tokyo" class=" clase1"> 
+            <h2>Tokyo</h2> <p>Capital de Japón</p> 
+        </div> 
+    </body>
+</html>
