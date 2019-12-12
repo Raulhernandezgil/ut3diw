@@ -1,0 +1,38 @@
+%capaHija{
+    background-color: pink;
+    margin:10px;
+    padding: 5px;
+    height: 70px;
+    font-size: 23px;
+}
+
+.contenedor1{
+    display: flex;
+    background-color: lightblue;
+    min-height: 700px;
+    justify-content: center;
+    > div{
+        @extend %capaHija;
+    }
+}
+.contenedor2{
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    > div{
+        @extend %capaHija;
+    }
+}
+
+.readaligncontent{
+    flex-wrap: wrap;
+    align-content: space-between;
+    display: flex;
+    background-color: lightblue;
+    min-height: 700px;
+    justify-content: center;
+    > div{
+        @extend %capaHija;
+    }
+}

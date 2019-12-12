@@ -1,0 +1,18 @@
+.contenedorflex, .contenedor > div {
+  background-color: fuchsia;
+  margin: 10px;
+  padding: 20px;
+  font-size: 1.8rem;
+}
+
+.contenedor {
+  display: flex;
+  background-color: dodgerblue;
+}
+.contenedorflex {
+  margin-top: 20px;
+  display: flex;
+  background-color: dodgerblue;
+}
+
+/*# sourceMappingURL=archivoSass.css.map */
