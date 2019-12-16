@@ -1,0 +1,35 @@
+.contenedorflex {
+  display: flex;
+  width: 500px;
+  height: 250px;
+  background-color: lightblue;
+}
+.contenedorflex > .elemento1 {
+  flex-basis: auto;
+  flex-grow: 1;
+  background-color: lightcoral;
+}
+.contenedorflex > .elemento2 {
+  flex-basis: auto;
+  flex-grow: 3;
+  background-color: lightgreen;
+}
+.contenedorflex > .elemento3 {
+  flex-basis: auto;
+  flex-grow: 2;
+  background-color: lightsalmon;
+}
+.contenedorflex .elementohijo {
+  background-color: lightseagreen;
+  align-self: flex-end;
+}
+.contenedorflex .elementohijo2 {
+  background-color: lightseagreen;
+  align-self: flex-start;
+}
+.contenedorflex .elementohijo3 {
+  background-color: lightseagreen;
+  align-self: center;
+}
+
+/*# sourceMappingURL=ejercicio1.css.map */

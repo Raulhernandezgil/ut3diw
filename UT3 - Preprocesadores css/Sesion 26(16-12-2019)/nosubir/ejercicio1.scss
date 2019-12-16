@@ -1,0 +1,33 @@
+.contenedorflex{
+    display: flex;
+    width: 500px;
+    height: 250px;
+    background-color: lightblue;
+    > .elemento1{
+        flex-basis: auto;
+        flex-grow: 1;
+        background-color: lightcoral;
+    }
+    > .elemento2{
+        flex-basis: auto;
+        flex-grow: 3;
+        background-color: lightgreen;
+    }
+    > .elemento3{
+        flex-basis: auto;
+        flex-grow: 2;
+        background-color: lightsalmon;
+    }
+    .elementohijo{
+        background-color: lightseagreen;
+        align-self: flex-end;
+    }
+    .elementohijo2{
+        background-color: lightseagreen;
+        align-self: flex-start;
+    }
+    .elementohijo3{
+        background-color: lightseagreen;
+        align-self: center;
+    }
+}
